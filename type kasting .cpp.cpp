@@ -6,8 +6,9 @@ using namespace std;
 int main()
 {
     int num1, num2;
-    num1=10;
-    num2=3;
+    
+    cout<<"enter 2 numbers:";
+    cin>>num1>>num2;
     
     int sum=num1+num2;
     cout << "Sum is : " << sum << endl;
@@ -23,3 +24,4 @@ int main()
 
     return 0;
 }
+
